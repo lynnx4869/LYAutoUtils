@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BA22E5C7759C5C7F0FE610A /* Pods_LYAutoUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD186C0051686D1C310ADBD /* Pods_LYAutoUtils.framework */; };
+		8B1D75961ED28BB700471A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75951ED28BB700471A68 /* AppDelegate.swift */; };
+		8B1D75981ED28BB700471A68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75971ED28BB700471A68 /* ViewController.swift */; };
+		8B1D759B1ED28BB700471A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75991ED28BB700471A68 /* Main.storyboard */; };
+		8B1D759D1ED28BB700471A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D759C1ED28BB700471A68 /* Assets.xcassets */; };
+		8B1D75A01ED28BB700471A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D759E1ED28BB700471A68 /* LaunchScreen.storyboard */; };
+		8B1D75B01ED28EA200471A68 /* ly_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AA1ED28EA200471A68 /* ly_loading@2x.png */; };
+		8B1D75B11ED28EA200471A68 /* ly_loading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AB1ED28EA200471A68 /* ly_loading@3x.png */; };
+		8B1D75B21ED28EA200471A68 /* ly_message_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AC1ED28EA200471A68 /* ly_message_ok@2x.png */; };
+		8B1D75B31ED28EA200471A68 /* ly_message_ok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AD1ED28EA200471A68 /* ly_message_ok@3x.png */; };
+		8B1D75B41ED28EA200471A68 /* ly_message_warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AE1ED28EA200471A68 /* ly_message_warning@2x.png */; };
+		8B1D75B51ED28EA200471A68 /* ly_message_warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AF1ED28EA200471A68 /* ly_message_warning@3x.png */; };
+		8B1D75B91ED2901900471A68 /* LYAutoUtilsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75B81ED2901900471A68 /* LYAutoUtilsExtensions.swift */; };
+		8B1D75BB1ED2A78400471A68 /* LYAutoLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75BA1ED2A78400471A68 /* LYAutoLoading.swift */; };
+		8B1D75BD1ED2B7FF00471A68 /* LYAutoPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75BC1ED2B7FF00471A68 /* LYAutoPop.swift */; };
+		8B1D75BF1ED2C52500471A68 /* LYAutoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75BE1ED2C52500471A68 /* LYAutoAlert.swift */; };
+		8B1D75C11ED2D07E00471A68 /* LYAutoSwitchs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75C01ED2D07E00471A68 /* LYAutoSwitchs.swift */; };
+		8B6EEFA21ED420A9009E4D5A /* images.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFA11ED420A9009E4D5A /* images.zip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B1D75921ED28BB700471A68 /* LYAutoUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYAutoUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1D75951ED28BB700471A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B1D75971ED28BB700471A68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B1D759A1ED28BB700471A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B1D759C1ED28BB700471A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B1D759F1ED28BB700471A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B1D75A11ED28BB700471A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1D75AA1ED28EA200471A68 /* ly_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_loading@2x.png"; sourceTree = "<group>"; };
+		8B1D75AB1ED28EA200471A68 /* ly_loading@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_loading@3x.png"; sourceTree = "<group>"; };
+		8B1D75AC1ED28EA200471A68 /* ly_message_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_ok@2x.png"; sourceTree = "<group>"; };
+		8B1D75AD1ED28EA200471A68 /* ly_message_ok@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_ok@3x.png"; sourceTree = "<group>"; };
+		8B1D75AE1ED28EA200471A68 /* ly_message_warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_warning@2x.png"; sourceTree = "<group>"; };
+		8B1D75AF1ED28EA200471A68 /* ly_message_warning@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_warning@3x.png"; sourceTree = "<group>"; };
+		8B1D75B81ED2901900471A68 /* LYAutoUtilsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoUtilsExtensions.swift; sourceTree = "<group>"; };
+		8B1D75BA1ED2A78400471A68 /* LYAutoLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoLoading.swift; sourceTree = "<group>"; };
+		8B1D75BC1ED2B7FF00471A68 /* LYAutoPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoPop.swift; sourceTree = "<group>"; };
+		8B1D75BE1ED2C52500471A68 /* LYAutoAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoAlert.swift; sourceTree = "<group>"; };
+		8B1D75C01ED2D07E00471A68 /* LYAutoSwitchs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoSwitchs.swift; sourceTree = "<group>"; };
+		8B6EEFA11ED420A9009E4D5A /* images.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = images.zip; sourceTree = "<group>"; };
+		ACBBACFA24476A3860AD8970 /* Pods-LYAutoUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYAutoUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils.release.xcconfig"; sourceTree = "<group>"; };
+		B3491EF7AD5073A1E43225BC /* Pods-LYAutoUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYAutoUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils.debug.xcconfig"; sourceTree = "<group>"; };
+		CCD186C0051686D1C310ADBD /* Pods_LYAutoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYAutoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B1D758F1ED28BB700471A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA22E5C7759C5C7F0FE610A /* Pods_LYAutoUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48B91FA1508D0816DC06EA5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3491EF7AD5073A1E43225BC /* Pods-LYAutoUtils.debug.xcconfig */,
+				ACBBACFA24476A3860AD8970 /* Pods-LYAutoUtils.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89B7A5CDDEE2F7D9857DE6FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD186C0051686D1C310ADBD /* Pods_LYAutoUtils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B1D75891ED28BB700471A68 = {
+			isa = PBXGroup;
+			children = (
+				8B1D75A71ED28EA200471A68 /* Classes */,
+				8B1D75941ED28BB700471A68 /* LYAutoUtils */,
+				8B1D75931ED28BB700471A68 /* Products */,
+				48B91FA1508D0816DC06EA5A /* Pods */,
+				89B7A5CDDEE2F7D9857DE6FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B1D75931ED28BB700471A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D75921ED28BB700471A68 /* LYAutoUtils.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B1D75941ED28BB700471A68 /* LYAutoUtils */ = {
+			isa = PBXGroup;
+			children = (
+				8B6EEFA11ED420A9009E4D5A /* images.zip */,
+				8B1D75951ED28BB700471A68 /* AppDelegate.swift */,
+				8B1D75971ED28BB700471A68 /* ViewController.swift */,
+				8B1D75991ED28BB700471A68 /* Main.storyboard */,
+				8B1D759C1ED28BB700471A68 /* Assets.xcassets */,
+				8B1D759E1ED28BB700471A68 /* LaunchScreen.storyboard */,
+				8B1D75A11ED28BB700471A68 /* Info.plist */,
+			);
+			path = LYAutoUtils;
+			sourceTree = "<group>";
+		};
+		8B1D75A71ED28EA200471A68 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D75A81ED28EA200471A68 /* Classes */,
+				8B1D75A91ED28EA200471A68 /* Resources */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8B1D75A81ED28EA200471A68 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D75B81ED2901900471A68 /* LYAutoUtilsExtensions.swift */,
+				8B1D75BA1ED2A78400471A68 /* LYAutoLoading.swift */,
+				8B1D75BC1ED2B7FF00471A68 /* LYAutoPop.swift */,
+				8B1D75BE1ED2C52500471A68 /* LYAutoAlert.swift */,
+				8B1D75C01ED2D07E00471A68 /* LYAutoSwitchs.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8B1D75A91ED28EA200471A68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D75AA1ED28EA200471A68 /* ly_loading@2x.png */,
+				8B1D75AB1ED28EA200471A68 /* ly_loading@3x.png */,
+				8B1D75AC1ED28EA200471A68 /* ly_message_ok@2x.png */,
+				8B1D75AD1ED28EA200471A68 /* ly_message_ok@3x.png */,
+				8B1D75AE1ED28EA200471A68 /* ly_message_warning@2x.png */,
+				8B1D75AF1ED28EA200471A68 /* ly_message_warning@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B1D75911ED28BB700471A68 /* LYAutoUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1D75A41ED28BB700471A68 /* Build configuration list for PBXNativeTarget "LYAutoUtils" */;
+			buildPhases = (
+				FDCA76B01C9EDC207DE50CAD /* [CP] Check Pods Manifest.lock */,
+				8B1D758E1ED28BB700471A68 /* Sources */,
+				8B1D758F1ED28BB700471A68 /* Frameworks */,
+				8B1D75901ED28BB700471A68 /* Resources */,
+				C428CA8776B58ED29FAFD8F9 /* [CP] Embed Pods Frameworks */,
+				BD73B5C58453832ECC2360AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYAutoUtils;
+			productName = LYAutoUtils;
+			productReference = 8B1D75921ED28BB700471A68 /* LYAutoUtils.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B1D758A1ED28BB700471A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lyning;
+				TargetAttributes = {
+					8B1D75911ED28BB700471A68 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 8B1D758D1ED28BB700471A68 /* Build configuration list for PBXProject "LYAutoUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B1D75891ED28BB700471A68;
+			productRefGroup = 8B1D75931ED28BB700471A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B1D75911ED28BB700471A68 /* LYAutoUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B1D75901ED28BB700471A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1D75B01ED28EA200471A68 /* ly_loading@2x.png in Resources */,
+				8B6EEFA21ED420A9009E4D5A /* images.zip in Resources */,
+				8B1D75B31ED28EA200471A68 /* ly_message_ok@3x.png in Resources */,
+				8B1D75B51ED28EA200471A68 /* ly_message_warning@3x.png in Resources */,
+				8B1D75B21ED28EA200471A68 /* ly_message_ok@2x.png in Resources */,
+				8B1D75A01ED28BB700471A68 /* LaunchScreen.storyboard in Resources */,
+				8B1D75B41ED28EA200471A68 /* ly_message_warning@2x.png in Resources */,
+				8B1D75B11ED28EA200471A68 /* ly_loading@3x.png in Resources */,
+				8B1D759D1ED28BB700471A68 /* Assets.xcassets in Resources */,
+				8B1D759B1ED28BB700471A68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD73B5C58453832ECC2360AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C428CA8776B58ED29FAFD8F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDCA76B01C9EDC207DE50CAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B1D758E1ED28BB700471A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1D75BF1ED2C52500471A68 /* LYAutoAlert.swift in Sources */,
+				8B1D75981ED28BB700471A68 /* ViewController.swift in Sources */,
+				8B1D75B91ED2901900471A68 /* LYAutoUtilsExtensions.swift in Sources */,
+				8B1D75C11ED2D07E00471A68 /* LYAutoSwitchs.swift in Sources */,
+				8B1D75BD1ED2B7FF00471A68 /* LYAutoPop.swift in Sources */,
+				8B1D75BB1ED2A78400471A68 /* LYAutoLoading.swift in Sources */,
+				8B1D75961ED28BB700471A68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B1D75991ED28BB700471A68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B1D759A1ED28BB700471A68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B1D759E1ED28BB700471A68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B1D759F1ED28BB700471A68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B1D75A21ED28BB700471A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B1D75A31ED28BB700471A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B1D75A51ED28BB700471A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3491EF7AD5073A1E43225BC /* Pods-LYAutoUtils.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LYAutoUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyning.LYAutoUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8B1D75A61ED28BB700471A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBBACFA24476A3860AD8970 /* Pods-LYAutoUtils.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LYAutoUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyning.LYAutoUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B1D758D1ED28BB700471A68 /* Build configuration list for PBXProject "LYAutoUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1D75A21ED28BB700471A68 /* Debug */,
+				8B1D75A31ED28BB700471A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1D75A41ED28BB700471A68 /* Build configuration list for PBXNativeTarget "LYAutoUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1D75A51ED28BB700471A68 /* Debug */,
+				8B1D75A61ED28BB700471A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B1D758A1ED28BB700471A68 /* Project object */;
+}

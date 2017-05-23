@@ -1,0 +1,6 @@
+framework module Pods_LYAutoUtils {
+  umbrella header "Pods-LYAutoUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
