@@ -13,18 +13,18 @@
 		8B1D759B1ED28BB700471A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75991ED28BB700471A68 /* Main.storyboard */; };
 		8B1D759D1ED28BB700471A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D759C1ED28BB700471A68 /* Assets.xcassets */; };
 		8B1D75A01ED28BB700471A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D759E1ED28BB700471A68 /* LaunchScreen.storyboard */; };
-		8B1D75B01ED28EA200471A68 /* ly_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AA1ED28EA200471A68 /* ly_loading@2x.png */; };
-		8B1D75B11ED28EA200471A68 /* ly_loading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AB1ED28EA200471A68 /* ly_loading@3x.png */; };
-		8B1D75B21ED28EA200471A68 /* ly_message_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AC1ED28EA200471A68 /* ly_message_ok@2x.png */; };
-		8B1D75B31ED28EA200471A68 /* ly_message_ok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AD1ED28EA200471A68 /* ly_message_ok@3x.png */; };
-		8B1D75B41ED28EA200471A68 /* ly_message_warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AE1ED28EA200471A68 /* ly_message_warning@2x.png */; };
-		8B1D75B51ED28EA200471A68 /* ly_message_warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75AF1ED28EA200471A68 /* ly_message_warning@3x.png */; };
-		8B1D75B91ED2901900471A68 /* LYAutoUtilsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75B81ED2901900471A68 /* LYAutoUtilsExtensions.swift */; };
-		8B1D75BB1ED2A78400471A68 /* LYAutoLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75BA1ED2A78400471A68 /* LYAutoLoading.swift */; };
-		8B1D75BD1ED2B7FF00471A68 /* LYAutoPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75BC1ED2B7FF00471A68 /* LYAutoPop.swift */; };
-		8B1D75BF1ED2C52500471A68 /* LYAutoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75BE1ED2C52500471A68 /* LYAutoAlert.swift */; };
-		8B1D75C11ED2D07E00471A68 /* LYAutoSwitchs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1D75C01ED2D07E00471A68 /* LYAutoSwitchs.swift */; };
 		8B6EEFA21ED420A9009E4D5A /* images.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFA11ED420A9009E4D5A /* images.zip */; };
+		8B6EEFCA1ED42FE7009E4D5A /* LYAutoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EEFBE1ED42FE7009E4D5A /* LYAutoAlert.swift */; };
+		8B6EEFCB1ED42FE7009E4D5A /* LYAutoLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EEFBF1ED42FE7009E4D5A /* LYAutoLoading.swift */; };
+		8B6EEFCC1ED42FE7009E4D5A /* LYAutoPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC01ED42FE7009E4D5A /* LYAutoPop.swift */; };
+		8B6EEFCD1ED42FE7009E4D5A /* LYAutoSwitchs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC11ED42FE7009E4D5A /* LYAutoSwitchs.swift */; };
+		8B6EEFCE1ED42FE7009E4D5A /* LYAutoUtilsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC21ED42FE7009E4D5A /* LYAutoUtilsExtensions.swift */; };
+		8B6EEFCF1ED42FE7009E4D5A /* ly_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC41ED42FE7009E4D5A /* ly_loading@2x.png */; };
+		8B6EEFD01ED42FE7009E4D5A /* ly_loading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC51ED42FE7009E4D5A /* ly_loading@3x.png */; };
+		8B6EEFD11ED42FE7009E4D5A /* ly_message_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC61ED42FE7009E4D5A /* ly_message_ok@2x.png */; };
+		8B6EEFD21ED42FE7009E4D5A /* ly_message_ok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC71ED42FE7009E4D5A /* ly_message_ok@3x.png */; };
+		8B6EEFD31ED42FE7009E4D5A /* ly_message_warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC81ED42FE7009E4D5A /* ly_message_warning@2x.png */; };
+		8B6EEFD41ED42FE7009E4D5A /* ly_message_warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC91ED42FE7009E4D5A /* ly_message_warning@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,18 +35,18 @@
 		8B1D759C1ED28BB700471A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1D759F1ED28BB700471A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B1D75A11ED28BB700471A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B1D75AA1ED28EA200471A68 /* ly_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_loading@2x.png"; sourceTree = "<group>"; };
-		8B1D75AB1ED28EA200471A68 /* ly_loading@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_loading@3x.png"; sourceTree = "<group>"; };
-		8B1D75AC1ED28EA200471A68 /* ly_message_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_ok@2x.png"; sourceTree = "<group>"; };
-		8B1D75AD1ED28EA200471A68 /* ly_message_ok@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_ok@3x.png"; sourceTree = "<group>"; };
-		8B1D75AE1ED28EA200471A68 /* ly_message_warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_warning@2x.png"; sourceTree = "<group>"; };
-		8B1D75AF1ED28EA200471A68 /* ly_message_warning@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_warning@3x.png"; sourceTree = "<group>"; };
-		8B1D75B81ED2901900471A68 /* LYAutoUtilsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoUtilsExtensions.swift; sourceTree = "<group>"; };
-		8B1D75BA1ED2A78400471A68 /* LYAutoLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoLoading.swift; sourceTree = "<group>"; };
-		8B1D75BC1ED2B7FF00471A68 /* LYAutoPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoPop.swift; sourceTree = "<group>"; };
-		8B1D75BE1ED2C52500471A68 /* LYAutoAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoAlert.swift; sourceTree = "<group>"; };
-		8B1D75C01ED2D07E00471A68 /* LYAutoSwitchs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoSwitchs.swift; sourceTree = "<group>"; };
 		8B6EEFA11ED420A9009E4D5A /* images.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = images.zip; sourceTree = "<group>"; };
+		8B6EEFBE1ED42FE7009E4D5A /* LYAutoAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoAlert.swift; sourceTree = "<group>"; };
+		8B6EEFBF1ED42FE7009E4D5A /* LYAutoLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoLoading.swift; sourceTree = "<group>"; };
+		8B6EEFC01ED42FE7009E4D5A /* LYAutoPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoPop.swift; sourceTree = "<group>"; };
+		8B6EEFC11ED42FE7009E4D5A /* LYAutoSwitchs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoSwitchs.swift; sourceTree = "<group>"; };
+		8B6EEFC21ED42FE7009E4D5A /* LYAutoUtilsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoUtilsExtensions.swift; sourceTree = "<group>"; };
+		8B6EEFC41ED42FE7009E4D5A /* ly_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_loading@2x.png"; sourceTree = "<group>"; };
+		8B6EEFC51ED42FE7009E4D5A /* ly_loading@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_loading@3x.png"; sourceTree = "<group>"; };
+		8B6EEFC61ED42FE7009E4D5A /* ly_message_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_ok@2x.png"; sourceTree = "<group>"; };
+		8B6EEFC71ED42FE7009E4D5A /* ly_message_ok@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_ok@3x.png"; sourceTree = "<group>"; };
+		8B6EEFC81ED42FE7009E4D5A /* ly_message_warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_warning@2x.png"; sourceTree = "<group>"; };
+		8B6EEFC91ED42FE7009E4D5A /* ly_message_warning@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_warning@3x.png"; sourceTree = "<group>"; };
 		ACBBACFA24476A3860AD8970 /* Pods-LYAutoUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYAutoUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils.release.xcconfig"; sourceTree = "<group>"; };
 		B3491EF7AD5073A1E43225BC /* Pods-LYAutoUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYAutoUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		CCD186C0051686D1C310ADBD /* Pods_LYAutoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYAutoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +84,7 @@
 		8B1D75891ED28BB700471A68 = {
 			isa = PBXGroup;
 			children = (
-				8B1D75A71ED28EA200471A68 /* Classes */,
+				8B6EEFBC1ED42FE7009E4D5A /* Classes */,
 				8B1D75941ED28BB700471A68 /* LYAutoUtils */,
 				8B1D75931ED28BB700471A68 /* Products */,
 				48B91FA1508D0816DC06EA5A /* Pods */,
@@ -114,36 +114,37 @@
 			path = LYAutoUtils;
 			sourceTree = "<group>";
 		};
-		8B1D75A71ED28EA200471A68 /* Classes */ = {
+		8B6EEFBC1ED42FE7009E4D5A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8B1D75A81ED28EA200471A68 /* Classes */,
-				8B1D75A91ED28EA200471A68 /* Resources */,
+				8B6EEFBD1ED42FE7009E4D5A /* Classes */,
+				8B6EEFC31ED42FE7009E4D5A /* Resources */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		8B6EEFBD1ED42FE7009E4D5A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B6EEFBE1ED42FE7009E4D5A /* LYAutoAlert.swift */,
+				8B6EEFBF1ED42FE7009E4D5A /* LYAutoLoading.swift */,
+				8B6EEFC01ED42FE7009E4D5A /* LYAutoPop.swift */,
+				8B6EEFC11ED42FE7009E4D5A /* LYAutoSwitchs.swift */,
+				8B6EEFC21ED42FE7009E4D5A /* LYAutoUtilsExtensions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		8B1D75A81ED28EA200471A68 /* Classes */ = {
+		8B6EEFC31ED42FE7009E4D5A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8B1D75B81ED2901900471A68 /* LYAutoUtilsExtensions.swift */,
-				8B1D75BA1ED2A78400471A68 /* LYAutoLoading.swift */,
-				8B1D75BC1ED2B7FF00471A68 /* LYAutoPop.swift */,
-				8B1D75BE1ED2C52500471A68 /* LYAutoAlert.swift */,
-				8B1D75C01ED2D07E00471A68 /* LYAutoSwitchs.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		8B1D75A91ED28EA200471A68 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8B1D75AA1ED28EA200471A68 /* ly_loading@2x.png */,
-				8B1D75AB1ED28EA200471A68 /* ly_loading@3x.png */,
-				8B1D75AC1ED28EA200471A68 /* ly_message_ok@2x.png */,
-				8B1D75AD1ED28EA200471A68 /* ly_message_ok@3x.png */,
-				8B1D75AE1ED28EA200471A68 /* ly_message_warning@2x.png */,
-				8B1D75AF1ED28EA200471A68 /* ly_message_warning@3x.png */,
+				8B6EEFC41ED42FE7009E4D5A /* ly_loading@2x.png */,
+				8B6EEFC51ED42FE7009E4D5A /* ly_loading@3x.png */,
+				8B6EEFC61ED42FE7009E4D5A /* ly_message_ok@2x.png */,
+				8B6EEFC71ED42FE7009E4D5A /* ly_message_ok@3x.png */,
+				8B6EEFC81ED42FE7009E4D5A /* ly_message_warning@2x.png */,
+				8B6EEFC91ED42FE7009E4D5A /* ly_message_warning@3x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -210,14 +211,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B1D75B01ED28EA200471A68 /* ly_loading@2x.png in Resources */,
 				8B6EEFA21ED420A9009E4D5A /* images.zip in Resources */,
-				8B1D75B31ED28EA200471A68 /* ly_message_ok@3x.png in Resources */,
-				8B1D75B51ED28EA200471A68 /* ly_message_warning@3x.png in Resources */,
-				8B1D75B21ED28EA200471A68 /* ly_message_ok@2x.png in Resources */,
 				8B1D75A01ED28BB700471A68 /* LaunchScreen.storyboard in Resources */,
-				8B1D75B41ED28EA200471A68 /* ly_message_warning@2x.png in Resources */,
-				8B1D75B11ED28EA200471A68 /* ly_loading@3x.png in Resources */,
+				8B6EEFD31ED42FE7009E4D5A /* ly_message_warning@2x.png in Resources */,
+				8B6EEFD41ED42FE7009E4D5A /* ly_message_warning@3x.png in Resources */,
+				8B6EEFD11ED42FE7009E4D5A /* ly_message_ok@2x.png in Resources */,
+				8B6EEFCF1ED42FE7009E4D5A /* ly_loading@2x.png in Resources */,
+				8B6EEFD21ED42FE7009E4D5A /* ly_message_ok@3x.png in Resources */,
+				8B6EEFD01ED42FE7009E4D5A /* ly_loading@3x.png in Resources */,
 				8B1D759D1ED28BB700471A68 /* Assets.xcassets in Resources */,
 				8B1D759B1ED28BB700471A68 /* Main.storyboard in Resources */,
 			);
@@ -278,12 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B1D75BF1ED2C52500471A68 /* LYAutoAlert.swift in Sources */,
+				8B6EEFCA1ED42FE7009E4D5A /* LYAutoAlert.swift in Sources */,
 				8B1D75981ED28BB700471A68 /* ViewController.swift in Sources */,
-				8B1D75B91ED2901900471A68 /* LYAutoUtilsExtensions.swift in Sources */,
-				8B1D75C11ED2D07E00471A68 /* LYAutoSwitchs.swift in Sources */,
-				8B1D75BD1ED2B7FF00471A68 /* LYAutoPop.swift in Sources */,
-				8B1D75BB1ED2A78400471A68 /* LYAutoLoading.swift in Sources */,
+				8B6EEFCE1ED42FE7009E4D5A /* LYAutoUtilsExtensions.swift in Sources */,
+				8B6EEFCC1ED42FE7009E4D5A /* LYAutoPop.swift in Sources */,
+				8B6EEFCD1ED42FE7009E4D5A /* LYAutoSwitchs.swift in Sources */,
+				8B6EEFCB1ED42FE7009E4D5A /* LYAutoLoading.swift in Sources */,
 				8B1D75961ED28BB700471A68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
