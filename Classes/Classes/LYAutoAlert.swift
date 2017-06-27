@@ -10,7 +10,7 @@ import UIKit
 
 public struct LYAutoAlert {
     
-    static func show(title: String,
+    static public func show(title: String,
                      subTitle: String,
                      check: Bool,
                      viewController: UIViewController,
@@ -39,7 +39,7 @@ public struct LYAutoAlert {
         viewController.present(alertController, animated: true, completion: nil)
     }
     
-    static func show(title: String,
+    static public func show(title: String,
                      btns: [String],
                      viewController: UIViewController,
                      btnClick: @escaping ((_ title: String)->Void)) {
