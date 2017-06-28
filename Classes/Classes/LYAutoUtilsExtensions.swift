@@ -13,13 +13,13 @@ import SSZipArchive
 /// 静态量
 public struct LyConsts {
     
-    static var ScreenWidth: CGFloat! {
+    static public var ScreenWidth: CGFloat! {
         get {
             return UIScreen.main.bounds.size.width
         }
     }
     
-    static var ScreenHeight: CGFloat! {
+    static public var ScreenHeight: CGFloat! {
         get {
             return UIScreen.main.bounds.size.height
         }

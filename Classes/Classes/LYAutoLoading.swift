@@ -9,9 +9,9 @@
 import UIKit
 import pop
 
-class LYAutoLoading {
+public class LYAutoLoading {
     
-    static let shared: LYAutoLoading = LYAutoLoading()
+    static public let shared: LYAutoLoading = LYAutoLoading()
     
     public var color: UIColor = UIColor.color(hex: 0x007cdc)
     
