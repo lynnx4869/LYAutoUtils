@@ -51,11 +51,14 @@ class ViewController: UIViewController {
     
     @IBAction func alert(_ sender: UIButton) {
         LYAutoAlert.show(title: "提示",
-                         subTitle: "这个是一个提示",
+                         subTitle: "这是一个提示",
                          check: true,
                          viewController: self,
-                         sure: { (title) in
-                            print(title)
+                         confirm: nil,
+                         cancel: nil,
+                         sureAction:
+        { (title) in
+            print(title)
         }) { (title) in
             print(title)
         }
@@ -67,6 +70,18 @@ class ViewController: UIViewController {
                          viewController: self) { (title) in
                             print(title)
         }
+    }
+    
+    @IBAction func datepick(_ sender: UIButton) {
+        let datepicker = LYAutoDatePicker.show(type: .YMDHmS,
+                                               time: nil,
+                                               maxTime: nil,
+                                               minTime: nil,
+                                               color: nil) { (times) in
+            print(times.description(with: Locale.current))
+        }
+        
+        present(datepicker, animated: true, completion: nil)
     }
     
 }

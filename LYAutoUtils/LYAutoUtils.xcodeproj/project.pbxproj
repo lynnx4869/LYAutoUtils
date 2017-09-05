@@ -13,6 +13,8 @@
 		8B1D759B1ED28BB700471A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D75991ED28BB700471A68 /* Main.storyboard */; };
 		8B1D759D1ED28BB700471A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D759C1ED28BB700471A68 /* Assets.xcassets */; };
 		8B1D75A01ED28BB700471A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1D759E1ED28BB700471A68 /* LaunchScreen.storyboard */; };
+		8B39A3E21F591D0F00D408F0 /* LYAutoDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39A3E01F591D0F00D408F0 /* LYAutoDatePicker.swift */; };
+		8B39A3E31F591D0F00D408F0 /* LYAutoDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A3E11F591D0F00D408F0 /* LYAutoDatePicker.xib */; };
 		8B6EEFA21ED420A9009E4D5A /* images.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFA11ED420A9009E4D5A /* images.zip */; };
 		8B6EEFCA1ED42FE7009E4D5A /* LYAutoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EEFBE1ED42FE7009E4D5A /* LYAutoAlert.swift */; };
 		8B6EEFCB1ED42FE7009E4D5A /* LYAutoLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EEFBF1ED42FE7009E4D5A /* LYAutoLoading.swift */; };
@@ -35,6 +37,8 @@
 		8B1D759C1ED28BB700471A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1D759F1ED28BB700471A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B1D75A11ED28BB700471A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B39A3E01F591D0F00D408F0 /* LYAutoDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoDatePicker.swift; sourceTree = "<group>"; };
+		8B39A3E11F591D0F00D408F0 /* LYAutoDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYAutoDatePicker.xib; sourceTree = "<group>"; };
 		8B6EEFA11ED420A9009E4D5A /* images.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = images.zip; sourceTree = "<group>"; };
 		8B6EEFBE1ED42FE7009E4D5A /* LYAutoAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoAlert.swift; sourceTree = "<group>"; };
 		8B6EEFBF1ED42FE7009E4D5A /* LYAutoLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYAutoLoading.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 				8B6EEFBF1ED42FE7009E4D5A /* LYAutoLoading.swift */,
 				8B6EEFC01ED42FE7009E4D5A /* LYAutoPop.swift */,
 				8B6EEFC11ED42FE7009E4D5A /* LYAutoSwitchs.swift */,
+				8B39A3E01F591D0F00D408F0 /* LYAutoDatePicker.swift */,
+				8B39A3E11F591D0F00D408F0 /* LYAutoDatePicker.xib */,
 				8B6EEFC21ED42FE7009E4D5A /* LYAutoUtilsExtensions.swift */,
 			);
 			path = Classes;
@@ -221,6 +227,7 @@
 				8B6EEFD01ED42FE7009E4D5A /* ly_loading@3x.png in Resources */,
 				8B1D759D1ED28BB700471A68 /* Assets.xcassets in Resources */,
 				8B1D759B1ED28BB700471A68 /* Main.storyboard in Resources */,
+				8B39A3E31F591D0F00D408F0 /* LYAutoDatePicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +289,7 @@
 				8B6EEFCA1ED42FE7009E4D5A /* LYAutoAlert.swift in Sources */,
 				8B1D75981ED28BB700471A68 /* ViewController.swift in Sources */,
 				8B6EEFCE1ED42FE7009E4D5A /* LYAutoUtilsExtensions.swift in Sources */,
+				8B39A3E21F591D0F00D408F0 /* LYAutoDatePicker.swift in Sources */,
 				8B6EEFCC1ED42FE7009E4D5A /* LYAutoPop.swift in Sources */,
 				8B6EEFCD1ED42FE7009E4D5A /* LYAutoSwitchs.swift in Sources */,
 				8B6EEFCB1ED42FE7009E4D5A /* LYAutoLoading.swift in Sources */,
