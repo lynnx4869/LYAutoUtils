@@ -1,15 +1,15 @@
 PODS:
-  - pop (1.0.9)
-  - SSZipArchive (1.8.1)
+  - pop (1.0.10)
+  - SSZipArchive (2.0.7)
 
 DEPENDENCIES:
   - pop (~> 1.0)
   - SSZipArchive
 
 SPEC CHECKSUMS:
-  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
-  SSZipArchive: 04547dfa448be5ed7ecbaf7eaf8a6e9eb9b42997
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SSZipArchive: 8c197761d66bd33e7f8b5b51ee57dff303971150
 
 PODFILE CHECKSUM: 563952b7c9139ab52daafd76aaa0e01cf8fbb156
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1
