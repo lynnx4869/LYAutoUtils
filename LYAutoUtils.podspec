@@ -136,4 +136,6 @@ Pod::Spec.new do |s|
   s.dependency "pop", "~> 1.0"
   s.dependency "SSZipArchive"
 
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+
 end
