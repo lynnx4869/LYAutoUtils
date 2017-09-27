@@ -27,6 +27,7 @@
 		8B6EEFD21ED42FE7009E4D5A /* ly_message_ok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC71ED42FE7009E4D5A /* ly_message_ok@3x.png */; };
 		8B6EEFD31ED42FE7009E4D5A /* ly_message_warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC81ED42FE7009E4D5A /* ly_message_warning@2x.png */; };
 		8B6EEFD41ED42FE7009E4D5A /* ly_message_warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EEFC91ED42FE7009E4D5A /* ly_message_warning@3x.png */; };
+		8BD2C9531F7B4A530096DF24 /* LYAutoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2C9521F7B4A530096DF24 /* LYAutoUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		8B6EEFC71ED42FE7009E4D5A /* ly_message_ok@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_ok@3x.png"; sourceTree = "<group>"; };
 		8B6EEFC81ED42FE7009E4D5A /* ly_message_warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_warning@2x.png"; sourceTree = "<group>"; };
 		8B6EEFC91ED42FE7009E4D5A /* ly_message_warning@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly_message_warning@3x.png"; sourceTree = "<group>"; };
+		8BD2C9521F7B4A530096DF24 /* LYAutoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYAutoUtils.swift; sourceTree = "<group>"; };
 		ACBBACFA24476A3860AD8970 /* Pods-LYAutoUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYAutoUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils.release.xcconfig"; sourceTree = "<group>"; };
 		B3491EF7AD5073A1E43225BC /* Pods-LYAutoUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYAutoUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		CCD186C0051686D1C310ADBD /* Pods_LYAutoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYAutoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,7 @@
 		8B6EEFBD1ED42FE7009E4D5A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8BD2C9521F7B4A530096DF24 /* LYAutoUtils.swift */,
 				8B6EEFBE1ED42FE7009E4D5A /* LYAutoAlert.swift */,
 				8B6EEFBF1ED42FE7009E4D5A /* LYAutoLoading.swift */,
 				8B6EEFC01ED42FE7009E4D5A /* LYAutoPop.swift */,
@@ -303,6 +306,7 @@
 				8B6EEFCD1ED42FE7009E4D5A /* LYAutoSwitchs.swift in Sources */,
 				8B6EEFCB1ED42FE7009E4D5A /* LYAutoLoading.swift in Sources */,
 				8B1D75961ED28BB700471A68 /* AppDelegate.swift in Sources */,
+				8BD2C9531F7B4A530096DF24 /* LYAutoUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
