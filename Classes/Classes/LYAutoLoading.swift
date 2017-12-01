@@ -14,13 +14,14 @@ public class LYAutoLoading {
     static public let shared: LYAutoLoading = LYAutoLoading()
     
     public var color: UIColor = UIColor.color(hex: 0x007cdc)
+    public var centerImage: UIImage? = UIImage(named: "ly_loading", in: Bundle(for: LYAutoUtils.self), compatibleWith: nil)
     
     fileprivate var isShow: Bool = false
     fileprivate var autoLoadingView: LYAutoLoadingView?
     
     public func show() {
         if !isShow {
-            autoLoadingView = LYAutoLoadingView(color: color)
+            autoLoadingView = LYAutoLoadingView(color: color, centerImage: centerImage)
             UIApplication.shared.keyWindow?.addSubview(autoLoadingView!)
             
             isShow = true
@@ -46,7 +47,7 @@ fileprivate class LYAutoLoadingView: UIView {
     fileprivate var color: UIColor!
     fileprivate let logoImage = UIImageView(frame: CGRect(x: 0, y: 0, width: 45, height: 45))
     
-    init(color: UIColor) {
+    init(color: UIColor, centerImage: UIImage?) {
         let oFrame = CGRect(x: 0, y: 0, width: LyConsts.ScreenWidth, height: LyConsts.ScreenHeight)
 
         super.init(frame: oFrame)
@@ -59,6 +60,7 @@ fileprivate class LYAutoLoadingView: UIView {
         addSubview(bgView)
         
         self.color = color
+        self.logoImage.image = centerImage?.imageChange(color: color)
         
         createLoading()
     }
@@ -78,7 +80,6 @@ fileprivate class LYAutoLoadingView: UIView {
         loadingBoard.layer.borderWidth = 0.25
         addSubview(loadingBoard)
         
-        logoImage.image = UIImage(named: "ly_loading", in: Bundle(for: LYAutoUtils.self), compatibleWith: nil)?.imageChange(color: color)
         logoImage.center = CGPoint(x: 70, y: 50)
         loadingBoard.addSubview(logoImage)
     }
