@@ -21,13 +21,25 @@ class ViewController: UIViewController {
             print(autoSwitchs.titles[index])
         }
         view.addSubview(autoSwitchs)
+                
+        DispatchQueue.global().async {
+            if let fileString = Bundle.main.path(forResource: "148274", ofType: "png") {
+                let fileManager = FileManager.default
+                if fileManager.fileExists(atPath: fileString) {
+                    if let image = UIImage(contentsOfFile: fileString) {
+                        if let newData = image.compress() {
+                            let imagePath = NSHomeDirectory() + "/Documents/148274.png"
+                            fileManager.createFile(atPath: imagePath,
+                                                   contents: newData,
+                                                   attributes: nil)
+                            
+                            debugPrint(NSHomeDirectory())
+                        }
+                    }
+                }
+            }
+        }
         
-        print(NSHomeDirectory())
-        
-        (NSHomeDirectory() + "/images.zip").remove()
-        Bundle.main.path(forResource: "images.zip", ofType: nil)?.copy(toPath: NSHomeDirectory())
-        
-        (NSHomeDirectory() + "/images.zip").unzipDelLocal(progress: nil, finished: nil)
     }
 
     override func didReceiveMemoryWarning() {
