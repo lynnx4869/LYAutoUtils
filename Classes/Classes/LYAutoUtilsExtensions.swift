@@ -55,15 +55,17 @@ public extension UIColor {
     /// 获取纯色图片
     ///
     /// - Returns: 纯色图片
-    public func pureImage() -> UIImage {
+    public func pureImage() -> UIImage? {
         let imageSize = CGSize(width: 10, height: 10)
         
         UIGraphicsBeginImageContextWithOptions(imageSize, false, 0)
         set()
         UIRectFill(CGRect(x: 0, y: 0, width: imageSize.width, height: imageSize.height))
         
-        let pureImage = UIGraphicsGetImageFromCurrentImageContext()!
-        
+        var pureImage: UIImage?
+        if let image = UIGraphicsGetImageFromCurrentImageContext() {
+            pureImage = image
+        }
         UIGraphicsEndImageContext()
         
         return pureImage
@@ -77,7 +79,7 @@ public extension UIImage {
     ///
     /// - Parameter color: UIColor
     /// - Returns: New Image
-    public func imageChange(color: UIColor) -> UIImage {
+    public func imageChange(color: UIColor) -> UIImage? {
         let imageReact = CGRect(origin: .zero, size: size)
         UIGraphicsBeginImageContextWithOptions(imageReact.size, false, scale)
         
@@ -144,21 +146,34 @@ public extension UIImage {
         if var thumbImage = fixOrientation() {
             UIGraphicsBeginImageContext(CGSize(width: thumbW, height: thumbH))
             thumbImage.draw(in: CGRect(x: 0, y: 0, width: thumbW, height: thumbH))
-            thumbImage = UIGraphicsGetImageFromCurrentImageContext()!
+            if let gi = UIGraphicsGetImageFromCurrentImageContext() {
+                thumbImage = gi
+            }
             UIGraphicsEndImageContext()
-            
-            var compressionQuality: CGFloat = 1.0
-            var dataLen = UIImageJPEGRepresentation(thumbImage, 1.0)
-            var length = CGFloat((dataLen?.count)!)
-            
-            if length/1024 < size {
-                return dataLen
+
+            if let imageData = UIImageJPEGRepresentation(thumbImage, 1.0) {
+                if CGFloat(imageData.count)/1024 < size {
+                    return imageData
+                }
             }
             
-            while length/1024 > size {
-                compressionQuality /= 2
-                dataLen = UIImageJPEGRepresentation(thumbImage, compressionQuality)
-                length = CGFloat((dataLen?.count)!)
+            var dataLen: Data!
+            var i = 0
+            var max: CGFloat = 1.0
+            var min: CGFloat = 0.0
+            while i < 6 {
+                let compressionQuality = (max + min) / 2
+                if let imageData = UIImageJPEGRepresentation(thumbImage, compressionQuality) {
+                    if CGFloat(imageData.count)/1024 < size * 0.9 {
+                        min = compressionQuality
+                    } else if CGFloat(imageData.count)/1024 > size {
+                        max = compressionQuality
+                    } else {
+                        dataLen = imageData
+                        break
+                    }
+                    i += 1
+                }
             }
             
             return dataLen
