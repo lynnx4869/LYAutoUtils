@@ -158,21 +158,19 @@ public extension UIImage {
             }
             
             var dataLen: Data!
-            var i = 0
             var max: CGFloat = 1.0
             var min: CGFloat = 0.0
-            while i < 6 {
+            for _ in 0..<10 {
                 let compressionQuality = (max + min) / 2
                 if let imageData = UIImageJPEGRepresentation(thumbImage, compressionQuality) {
+                    dataLen = imageData
                     if CGFloat(imageData.count)/1024 < size * 0.9 {
                         min = compressionQuality
                     } else if CGFloat(imageData.count)/1024 > size {
                         max = compressionQuality
                     } else {
-                        dataLen = imageData
                         break
                     }
-                    i += 1
                 }
             }
             
