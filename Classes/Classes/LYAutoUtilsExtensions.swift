@@ -160,7 +160,7 @@ public extension UIImage {
             var dataLen: Data!
             var max: CGFloat = 1.0
             var min: CGFloat = 0.0
-            for _ in 0..<10 {
+            for _ in 0..<6 {
                 let compressionQuality = (max + min) / 2
                 if let imageData = UIImageJPEGRepresentation(thumbImage, compressionQuality) {
                     dataLen = imageData
