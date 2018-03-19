@@ -90,9 +90,12 @@ public extension UIImage {
         context?.setFillColor(color.cgColor)
         context?.fill(imageReact)
         
-        let newImage = UIGraphicsGetImageFromCurrentImageContext()!
-        UIGraphicsEndImageContext()
+        guard let newImage = UIGraphicsGetImageFromCurrentImageContext() else {
+            UIGraphicsEndImageContext()
+            return nil
+        }
         
+        UIGraphicsEndImageContext()
         return newImage
     }
     
@@ -250,6 +253,9 @@ public extension UIImage {
     
 }
 
+public typealias LYUnzipProgress = (String, unz_file_info, Int, Int) -> Void
+public typealias LYUnzipFinished = (String, Bool, Error?) -> Void
+
 public extension String {
     
     /// 解压文件
@@ -259,18 +265,17 @@ public extension String {
     ///   - progress: 进行中
     ///   - finished: 已完成
     public func unzip(toPath path: String,
-                      progress: ((String, unz_file_info, Int, Int)->Void)?,
-                      finished: ((String, Bool, Error?)->Void)?) {
+                      progress: LYUnzipProgress?,
+                      finished: LYUnzipFinished?) {
         SSZipArchive.unzipFile(atPath: self,
                                toDestination: path,
                                progressHandler: { (entry, zipInfo, entryNumber, total) in
-                                if progress != nil {
-                                    progress!(entry, zipInfo, entryNumber, total)
+                                if let progress = progress {
+                                    progress(entry, zipInfo, entryNumber, total)
                                 }
-        })
-        { (path, succeeded, error) in
-            if finished != nil {
-                finished!(path, succeeded, error)
+        }) { (path, succeeded, error) in
+            if let finished = finished {
+                finished(path, succeeded, error)
             }
         }
     }
@@ -280,8 +285,8 @@ public extension String {
     /// - Parameters:
     ///   - progress: 进行中
     ///   - finished: 已完成
-    public func unzipLocal(progress: ((String, unz_file_info, Int, Int)->Void)?,
-                           finished: ((String, Bool, Error?)->Void)?) {
+    public func unzipLocal(progress: LYUnzipProgress?,
+                           finished: LYUnzipFinished?) {
         var names = self.components(separatedBy: "/")
         names.removeLast()
         var rootPath = ""
@@ -298,35 +303,39 @@ public extension String {
     /// - Parameters:
     ///   - progress: 进行中
     ///   - finished: 已完成
-    public func unzipDelLocal(progress: ((String, unz_file_info, Int, Int)->Void)?,
-                              finished: ((String, Bool, Error?)->Void)?) {
+    public func unzipDelLocal(progress: LYUnzipProgress?,
+                              finished: LYUnzipFinished?) {
         self.unzipLocal(progress: progress, finished: finished)
-        self.remove()
+        let _ = self.remove()
     }
     
     /// 移除文件
-    public func remove() {
+    public func remove() -> Error? {
         let fileManager = FileManager.default
-        if fileManager.fileExists(atPath: self) {
-            do {
-                try fileManager.removeItem(atPath: self)
-            } catch {
-                print(error)
-            }
+        do {
+            try fileManager.removeItem(atPath: self)
+        } catch {
+            debugPrint(error)
+            return error
         }
+        
+        return nil
     }
     
     /// 拷贝文件
     ///
     /// - Parameter path: 拷贝文件到路径
-    public func copy(toPath path: String) {
+    public func copy(toPath path: String) -> Error? {
         let fileManager = FileManager.default
         do {
             let names = self.components(separatedBy: "/")
             try fileManager.copyItem(atPath: self, toPath: "\(path)/\(names[names.count-1])")
         } catch {
-            print(error)
+            debugPrint(error)
+            return error
         }
+        
+        return nil
     }
     
     /// 文件是否存在

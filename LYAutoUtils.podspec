@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LYAutoUtils"
-  s.version      = "0.2.3"
+  s.version      = "0.2.4"
   s.summary      = "Swift 工具库"
 
   # This description is used to generate tags and improve search results.
@@ -133,7 +133,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "pop", "~> 1.0"
+  s.dependency "pop"
   s.dependency "SSZipArchive"
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }

@@ -22,22 +22,48 @@ class ViewController: UIViewController {
         }
         view.addSubview(autoSwitchs)
                 
+        debugPrint(NSHomeDirectory())
+        
         DispatchQueue.global().async {
-            if let fileString = Bundle.main.path(forResource: "148274", ofType: "png") {
+            if let dirString = Bundle.main.path(forResource: "orgin", ofType: nil) {
                 let fileManager = FileManager.default
-                if fileManager.fileExists(atPath: fileString) {
-                    if let image = UIImage(contentsOfFile: fileString) {
-                        if let newData = image.compress() {
-                            let imagePath = NSHomeDirectory() + "/Documents/148274.png"
-                            fileManager.createFile(atPath: imagePath,
-                                                   contents: newData,
-                                                   attributes: nil)
-                            
-                            debugPrint(NSHomeDirectory())
+                var isDirectory: ObjCBool = false
+                if fileManager.fileExists(atPath: dirString, isDirectory: &isDirectory) &&
+                    isDirectory.boolValue {
+                    do {
+                        let images = try fileManager.contentsOfDirectory(atPath: dirString)
+                        for image in images {
+                            let imagePath = dirString + "/" + image
+                            if let imageIO = UIImage(contentsOfFile: imagePath) {
+                                if let newData = imageIO.compress() {
+                                    let newImagePath = NSHomeDirectory() + "/Documents/" + image
+                                    fileManager.createFile(atPath: newImagePath,
+                                                           contents: newData,
+                                                           attributes: nil)
+                                }
+                            }
                         }
+                    } catch {
+                        debugPrint(error)
                     }
                 }
             }
+            
+//            if let fileString = Bundle.main.path(forResource: "148274", ofType: "png") {
+//                let fileManager = FileManager.default
+//                if fileManager.fileExists(atPath: fileString) {
+//                    if let image = UIImage(contentsOfFile: fileString) {
+//                        if let newData = image.compress() {
+//                            let imagePath = NSHomeDirectory() + "/Documents/148274.png"
+//                            fileManager.createFile(atPath: imagePath,
+//                                                   contents: newData,
+//                                                   attributes: nil)
+//
+//                            debugPrint(NSHomeDirectory())
+//                        }
+//                    }
+//                }
+//            }
         }
         
     }
