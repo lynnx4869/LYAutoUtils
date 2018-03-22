@@ -38,12 +38,12 @@ public struct LYAutoAlert {
             }
             
             let cancelAction = UIAlertAction(title: cancelTitle, style: .cancel, handler: { (action) in
-                cancelAction(action.title!)
+                cancelAction("取消")
             })
             alertController.addAction(cancelAction)
             
             let sureAction = UIAlertAction(title: confirmTitle, style: .default, handler: { (action) in
-                sureAction(action.title!)
+                sureAction("确认")
             })
             alertController.addAction(sureAction)
         } else {
@@ -55,7 +55,7 @@ public struct LYAutoAlert {
             }
             
             let cancelAction = UIAlertAction(title: confirmTitle, style: .cancel, handler: { (action) in
-                sureAction(action.title!)
+                sureAction("确认")
             })
             alertController.addAction(cancelAction)
         }
