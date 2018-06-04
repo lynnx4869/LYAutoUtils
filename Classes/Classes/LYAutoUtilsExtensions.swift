@@ -8,7 +8,7 @@
 
 import UIKit
 import WebKit
-import SSZipArchive
+import Zip
 
 /// 静态量
 public struct LyConsts {
@@ -27,30 +27,31 @@ public struct LyConsts {
     
 }
 
-public extension UIColor {
+public extension Int {
     
     /// 从16进制获取UIColor
     ///
     /// - Parameters:
-    ///   - hex: 16进制颜色值 ： 如 :#007ac0 即为 0x15A230
     ///   - alpha: 透明度 0 ~ 1
     /// - Returns: UIColor
-    static public func color(hex: Int, alpha: CGFloat) -> UIColor {
-        let color = UIColor(red: CGFloat(Double(((hex & 0xFF0000) >> 16))/255.0),
-                            green: CGFloat(Double(((hex & 0xFF00) >> 8))/255.0),
-                            blue: CGFloat(Double((hex & 0xFF))/255.0),
+    public func color(_ alpha: CGFloat) -> UIColor {
+        let color = UIColor(red: CGFloat(Double(((self & 0xFF0000) >> 16))/255.0),
+                            green: CGFloat(Double(((self & 0x00FF00) >> 8))/255.0),
+                            blue: CGFloat(Double((self & 0x0000FF))/255.0),
                             alpha: alpha)
-        
         return color
     }
     
     /// 从16进制获取UIColor alpha 默认为1
     ///
-    /// - Parameter hex: 16进制颜色值 ： 如 :#007ac0 即为 0x15A230
     /// - Returns: UIColor
-    static public func color(hex: Int) -> UIColor {
-        return UIColor.color(hex: hex, alpha: 1.0)
+    public func color() -> UIColor {
+        return self.color(1.0)
     }
+    
+}
+
+public extension UIColor {
     
     /// 获取纯色图片
     ///
@@ -253,8 +254,8 @@ public extension UIImage {
     
 }
 
-public typealias LYUnzipProgress = (String, unz_file_info, Int, Int) -> Void
-public typealias LYUnzipFinished = (String, Bool, Error?) -> Void
+public typealias LYUnzipProgress = (Double) -> Void
+public typealias LYUnzipFinished = (URL?, Error?) -> Void
 
 public extension String {
     
@@ -264,18 +265,32 @@ public extension String {
     ///   - path: 解压到路径
     ///   - progress: 进行中
     ///   - finished: 已完成
-    public func unzip(toPath path: String,
-                      progress: LYUnzipProgress?,
-                      finished: LYUnzipFinished?) {
-        SSZipArchive.unzipFile(atPath: self,
-                               toDestination: path,
-                               progressHandler: { (entry, zipInfo, entryNumber, total) in
-                                if let progress = progress {
-                                    progress(entry, zipInfo, entryNumber, total)
-                                }
-        }) { (path, succeeded, error) in
+    public func unzip(_ path: String,
+                      _ progress: LYUnzipProgress?,
+                      _ finished: LYUnzipFinished?) {
+        do {
+            let fileUrl = URL(fileURLWithPath: self)
+            let dUrl = URL(fileURLWithPath: path)
+            
+            try Zip.unzipFile(fileUrl,
+                              destination: dUrl,
+                              overwrite: true,
+                              password: nil,
+                              progress:
+            { p in
+                if let progress = progress {
+                    progress(p)
+                }
+                
+                if let finished = finished, p == 1.0 {
+                    finished(dUrl, nil)
+                }
+            }, fileOutputHandler: { url in
+                debugPrint("unzip file : " + url.absoluteString)
+            })
+        } catch {
             if let finished = finished {
-                finished(path, succeeded, error)
+                finished(nil, error)
             }
         }
     }
@@ -285,8 +300,8 @@ public extension String {
     /// - Parameters:
     ///   - progress: 进行中
     ///   - finished: 已完成
-    public func unzipLocal(progress: LYUnzipProgress?,
-                           finished: LYUnzipFinished?) {
+    public func unzipLocal(_ progress: LYUnzipProgress?,
+                           _ finished: LYUnzipFinished?) {
         var names = self.components(separatedBy: "/")
         names.removeLast()
         var rootPath = ""
@@ -295,7 +310,7 @@ public extension String {
                 rootPath += "/\(name)"
             }
         }
-        self.unzip(toPath: "\(rootPath)/", progress: progress, finished: finished)
+        self.unzip("\(rootPath)/", progress, finished)
     }
     
     /// 解压到本地并移除压缩文件
@@ -303,9 +318,9 @@ public extension String {
     /// - Parameters:
     ///   - progress: 进行中
     ///   - finished: 已完成
-    public func unzipDelLocal(progress: LYUnzipProgress?,
-                              finished: LYUnzipFinished?) {
-        self.unzipLocal(progress: progress, finished: finished)
+    public func unzipDelLocal(_ progress: LYUnzipProgress?,
+                              _ finished: LYUnzipFinished?) {
+        self.unzipLocal(progress, finished)
         let _ = self.remove()
     }
     

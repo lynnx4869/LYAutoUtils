@@ -49,6 +49,7 @@ class ViewController: UIViewController {
                 }
             }
             
+            
 //            if let fileString = Bundle.main.path(forResource: "148274", ofType: "png") {
 //                let fileManager = FileManager.default
 //                if fileManager.fileExists(atPath: fileString) {
@@ -64,6 +65,24 @@ class ViewController: UIViewController {
 //                    }
 //                }
 //            }
+            
+            if let path = Bundle.main.path(forResource: "images", ofType: "zip"),
+                path.exists() {
+                let _ = path.copy(toPath: NSHomeDirectory())
+                
+                let newpath = NSHomeDirectory() + "/images.zip"
+                if newpath.exists() {
+                    newpath.unzipDelLocal({ progress in
+                        debugPrint("progress++++\(progress)")
+                    }, { (url, error) in
+                        if error != nil {
+                            debugPrint(error.debugDescription)
+                        } else if let u = url {
+                            debugPrint("url+++++\(u)")
+                        }
+                    })
+                }
+            }
         }
         
     }

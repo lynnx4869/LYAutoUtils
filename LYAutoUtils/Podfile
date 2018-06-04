@@ -6,7 +6,7 @@ target 'LYAutoUtils' do
   use_frameworks!
 
   # Pods for LYAutoUtils
-  pod 'pop', '~> 1.0'
-  pod 'SSZipArchive'
+  pod 'pop'
+  pod 'Zip'
 
 end
