@@ -184,7 +184,10 @@ public extension UIImage {
         return nil
     }
     
-    fileprivate func fixOrientation() -> UIImage? {
+    /// 修复图片方向
+    ///
+    /// - Returns: 输出图片
+    public func fixOrientation() -> UIImage? {
         if imageOrientation == .up {
             return self
         }
