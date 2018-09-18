@@ -190,7 +190,7 @@
 					8B1D75911ED28BB700471A68 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 28B5J4N7T8;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -437,8 +437,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "360f1258-5be8-459c-bdb9-27b2957206c1";
 				PROVISIONING_PROFILE_SPECIFIER = CaiTuoGeneralCertificate_Dev;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -455,8 +454,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "360f1258-5be8-459c-bdb9-27b2957206c1";
 				PROVISIONING_PROFILE_SPECIFIER = CaiTuoGeneralCertificate_Dev;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
