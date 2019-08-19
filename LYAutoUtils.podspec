@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LYAutoUtils"
-  s.version      = "0.2.8"
+  s.version      = "0.3.0"
   s.summary      = "Swift 工具库"
 
   # This description is used to generate tags and improve search results.
@@ -136,6 +136,6 @@ Pod::Spec.new do |s|
   s.dependency "pop"
   s.dependency "Zip"
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
 end

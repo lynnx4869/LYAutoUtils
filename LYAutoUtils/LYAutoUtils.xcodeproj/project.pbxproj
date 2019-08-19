@@ -184,12 +184,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = lyning;
 				TargetAttributes = {
 					8B1D75911ED28BB700471A68 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 28B5J4N7T8;
+						DevelopmentTeam = 7JTT9ASCMC;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 					};
@@ -200,6 +200,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -240,7 +241,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
@@ -251,7 +252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYAutoUtils/Pods-LYAutoUtils-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FDCA76B01C9EDC207DE50CAD /* [CP] Check Pods Manifest.lock */ = {
@@ -317,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -376,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -429,15 +432,15 @@
 			baseConfigurationReference = B3491EF7AD5073A1E43225BC /* Pods-LYAutoUtils.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 28B5J4N7T8;
+				DEVELOPMENT_TEAM = 7JTT9ASCMC;
 				INFOPLIST_FILE = LYAutoUtils/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.czcg.LYAutoUtils;
+				PRODUCT_BUNDLE_IDENTIFIER = com.corptrip.LYAutoUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "360f1258-5be8-459c-bdb9-27b2957206c1";
-				PROVISIONING_PROFILE_SPECIFIER = CaiTuoGeneralCertificate_Dev;
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = iOS_Wildcard;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -446,15 +449,15 @@
 			baseConfigurationReference = ACBBACFA24476A3860AD8970 /* Pods-LYAutoUtils.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 28B5J4N7T8;
+				DEVELOPMENT_TEAM = 7JTT9ASCMC;
 				INFOPLIST_FILE = LYAutoUtils/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.czcg.LYAutoUtils;
+				PRODUCT_BUNDLE_IDENTIFIER = com.corptrip.LYAutoUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "360f1258-5be8-459c-bdb9-27b2957206c1";
-				PROVISIONING_PROFILE_SPECIFIER = CaiTuoGeneralCertificate_Dev;
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = iOS_Wildcard;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

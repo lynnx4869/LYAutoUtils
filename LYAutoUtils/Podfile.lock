@@ -1,5 +1,5 @@
 PODS:
-  - pop (1.0.10)
+  - pop (1.0.12)
   - Zip (1.1.0)
 
 DEPENDENCIES:
@@ -12,9 +12,9 @@ SPEC REPOS:
     - Zip
 
 SPEC CHECKSUMS:
-  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   Zip: 8877eede3dda76bcac281225c20e71c25270774c
 
 PODFILE CHECKSUM: afb921e0e178a488db9711be776e1b72d6b0edeb
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5
