@@ -107,16 +107,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func alert(_ sender: UIButton) {
-        LYAutoAlert.show(title: "提示",
-                         subTitle: "这是一个提示",
-                         check: true,
-                         viewController: self,
-                         confirm: nil,
-                         cancel: nil,
-                         sureAction:
-        { (title) in
+        LYAutoAlert.show(title: "提示", subTitle: "这是一个提示", check: true, viewController: self, sureAction: { title in
             print(title)
-        }) { (title) in
+        }) { title in
             print(title)
         }
     }
