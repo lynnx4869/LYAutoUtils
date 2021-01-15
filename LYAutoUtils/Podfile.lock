@@ -1,20 +1,16 @@
 PODS:
-  - pop (1.0.12)
   - Zip (2.1.1)
 
 DEPENDENCIES:
-  - pop
   - Zip
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
-    - pop
     - Zip
 
 SPEC CHECKSUMS:
-  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   Zip: 414f59909701fda9a84ab774ebe0f5449b1082cc
 
-PODFILE CHECKSUM: 4961a87517694527cce3c2f7b6f88f2520a4ec9a
+PODFILE CHECKSUM: a6b45ba89ea109eba0fdcc59c4d9c5c3f446ed50
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

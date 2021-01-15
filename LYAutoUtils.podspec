@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LYAutoUtils"
-  s.version      = "0.3.2"
+  s.version      = "1.0.0"
   s.summary      = "Swift 工具库"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = ["Classes/Classes/*.swift", "Classes/Classes/*.xib"]
+  s.source_files  = ["Sources/*.swift", "Sources/*.xib"]
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Classes/Resources/*.png"
+  s.resources = "Sources/LYAutoUtils.xcassets"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -133,7 +133,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "pop"
   s.dependency "Zip"
 
   s.swift_version = '5.0'

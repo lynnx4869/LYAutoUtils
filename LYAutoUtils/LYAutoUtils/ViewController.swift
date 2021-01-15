@@ -97,7 +97,7 @@ class ViewController: UIViewController {
         loading.color = UIColor.blue
         
         loading.show()
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2.0) { 
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 10.0) { 
             loading.hide()
         }
     }
