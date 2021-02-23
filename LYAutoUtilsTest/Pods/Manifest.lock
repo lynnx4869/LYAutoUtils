@@ -1,0 +1,23 @@
+PODS:
+  - LYAutoUtils (1.0.0):
+    - Zip
+  - Zip (2.1.1)
+
+DEPENDENCIES:
+  - LYAutoUtils (from `../`)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Zip
+
+EXTERNAL SOURCES:
+  LYAutoUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYAutoUtils: aa4dac58f2d513e9c868d41bb2f8745f9e8dd436
+  Zip: 414f59909701fda9a84ab774ebe0f5449b1082cc
+
+PODFILE CHECKSUM: 936adb0609c65c1f18e0114de57eb5c0442a982b
+
+COCOAPODS: 1.10.1

@@ -13,7 +13,7 @@ public class LYAutoLoading {
     static public let shared: LYAutoLoading = LYAutoLoading()
     
     public var color: UIColor?
-    public var centerImage: UIImage? = UIImage(named: "ly_loading", in: Bundle(for: LYAutoUtils.self), compatibleWith: nil)
+    public var centerImage: UIImage? = UIImage(named: "ly_loading", in: Bundle.normal_module, compatibleWith: nil)
     
     private var isShow: Bool = false
     private var autoLoadingView: LYAutoLoadingView?
