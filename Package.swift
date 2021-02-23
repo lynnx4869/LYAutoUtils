@@ -18,7 +18,7 @@ let package = Package(
                 dependencies: ["Zip"],
                 path: "Sources",
                 resources: [
-                    .process("LYAutoUtils.xcassets")
+                    .process("LYAutoUtils.bundle")
                 ])
     ],
     swiftLanguageVersions: [.v5]

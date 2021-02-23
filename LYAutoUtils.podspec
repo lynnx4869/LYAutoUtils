@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Sources/LYAutoUtils.xcassets"
+  s.resources = "Sources/LYAutoUtils.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

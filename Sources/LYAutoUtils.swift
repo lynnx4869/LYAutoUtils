@@ -32,7 +32,7 @@ extension Bundle {
         #endif
 
         for candidate in candidates {
-            let bundlePath = candidate?.appendingPathComponent(bundleName + ".xcassets")
+            let bundlePath = candidate?.appendingPathComponent(bundleName + ".bundle")
             if let bundle = bundlePath.flatMap(Bundle.init(url:)) {
                 return bundle
             }
