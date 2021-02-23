@@ -69,10 +69,10 @@ fileprivate class LYAutoPopView: UIView {
         
         if type == .success {
             backgroundColor = 0x16a085.color()
-            leftIcon.image = UIImage(named: "ly_message_ok", in: Bundle(for: LYAutoUtils.self), compatibleWith: nil)
+            leftIcon.image = UIImage(named: "ly_message_ok", in: Bundle.normal_module, compatibleWith: nil)
         } else {
             backgroundColor = 0xd9544f.color()
-            leftIcon.image = UIImage(named: "ly_message_warning", in: Bundle(for: LYAutoUtils.self), compatibleWith: nil)
+            leftIcon.image = UIImage(named: "ly_message_warning", in: Bundle.normal_module, compatibleWith: nil)
         }
     }
     

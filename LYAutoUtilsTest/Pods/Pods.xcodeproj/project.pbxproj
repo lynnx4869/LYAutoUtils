@@ -3,42 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13AE090D0178D0D0E4F7A6186234AD01 /* LYAutoUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00895CD1CD285C5B63B4AB7CAEB43C36 /* LYAutoUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13AE090D0178D0D0E4F7A6186234AD01 /* LYAutoUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49355928305168F69CF7A3A48DED243C /* LYAutoUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1850BFB7D94A3074F2AFFB5C6D639B21 /* Pods-LYAutoUtilsTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F314D9683D36796F523268683C4E54AE /* Pods-LYAutoUtilsTest-dummy.m */; };
 		1ADA300D4DC1BC10210C227DCBB4365C /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 24243BFC5AC1B2938B14E3A751AA3E80 /* zip.c */; };
-		260D32EFAD969523F7FE3606E40AB4D6 /* LYAutoDatePicker.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5F843DC8B17A31907C4B4388ADF7CF18 /* LYAutoDatePicker.xib */; };
-		2D881CBBBE883C76A060C9D098103540 /* LYAutoPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF140E2E5BB6D5827673E3088D730EA0 /* LYAutoPop.swift */; };
+		260D32EFAD969523F7FE3606E40AB4D6 /* LYAutoDatePicker.xib in Sources */ = {isa = PBXBuildFile; fileRef = 131189CBA824C4EDC29F886B5F63CC72 /* LYAutoDatePicker.xib */; };
+		2D881CBBBE883C76A060C9D098103540 /* LYAutoPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C94C1977109C924E979EF2E6824016 /* LYAutoPop.swift */; };
 		3CD344DA9F12AFA0F66B7F33298F9745 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = ABE13CEA62D36C9009B33B10D9AA949F /* unzip.c */; };
 		432253114D3B2C43AC76A18710FAF4DD /* Zip.h in Headers */ = {isa = PBXBuildFile; fileRef = AE11C5D2F7BE888AABE5BE7846E109ED /* Zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		465E6A76A60802D32B71F6BC71E9C467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873C4F0F6D4DD5D61D71CEE3E67AC046 /* Foundation.framework */; };
 		552815938EB6B06C69E79C3C4AA48074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873C4F0F6D4DD5D61D71CEE3E67AC046 /* Foundation.framework */; };
 		633222CEE52847E15967034BCBE2929B /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC5CD8DE4F07560546A78D1AA062DA9 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6793DC2318057DEC3A5840A0DD74CC5A /* LYAutoUtilsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC94E371921A540770EEC6107A3500 /* LYAutoUtilsExtensions.swift */; };
+		66D6EAC923AB52D4EF24853222085E80 /* LYAutoUtils.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8E9B5A244AF4A7BA3C84270055082EB /* LYAutoUtils.bundle */; };
+		6793DC2318057DEC3A5840A0DD74CC5A /* LYAutoUtilsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020E3C34069488B1A417E83C56B9D6D /* LYAutoUtilsExtensions.swift */; };
 		70130206E15D1E426C671BFDC4CE2A8E /* Zip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F7A4AC4ACB1F42222251BC26413EB1 /* Zip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7924449F557F47BA44C319AE0FEA6E8B /* LYAutoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274ACE666AE4CF4AA8436A64DB8B4E7 /* LYAutoUtils.swift */; };
-		7F1425C48F84039702B557E85BFF1FA0 /* LYAutoLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B8B13812E8E9AA02AD6EE3889E0A7 /* LYAutoLoading.swift */; };
+		7924449F557F47BA44C319AE0FEA6E8B /* LYAutoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB8AFA5E9AAE957162E4CD23B25BE1 /* LYAutoUtils.swift */; };
+		7F1425C48F84039702B557E85BFF1FA0 /* LYAutoLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EC25634503C611DD3A27C813142DEB /* LYAutoLoading.swift */; };
 		84BDAD10EA96F527A708E45C5605D0B4 /* Zip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454CBB36A96C87BEAD32DD0181D849B9 /* Zip-dummy.m */; };
 		8D84B91131E26795B9BD4CFC77FC85E2 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 03470FD6B20CD7E65A40E1B281AAAEE8 /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		90285D7F067636D83EA51AB7B1D7311A /* LYAutoUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A514BF7C553CC07985F9B1332D5603A /* LYAutoUtils-dummy.m */; };
+		90285D7F067636D83EA51AB7B1D7311A /* LYAutoUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B132003B81CF48DBFC3CEEA771BDB46 /* LYAutoUtils-dummy.m */; };
 		9C085846014BC11883CB636F8506585F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873C4F0F6D4DD5D61D71CEE3E67AC046 /* Foundation.framework */; };
-		9E9D9A37E16F9A525D681078E4E9137D /* LYAutoSwitchs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94714195BC6C612FFBFA611D02318A0E /* LYAutoSwitchs.swift */; };
+		9E9D9A37E16F9A525D681078E4E9137D /* LYAutoSwitchs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A3105C99E5E15087E7E65BC0BD8D0 /* LYAutoSwitchs.swift */; };
 		A0419A2DF3BFFD3D02F2CC326BBB1CFD /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 55864114BEED615862B1B517B153236D /* ioapi.c */; };
 		B377A2AE8BC82A180662483CCC16A241 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA4EDBEEEC0BBB1FA8C863A047370A9 /* Zip.framework */; };
-		B54B01C4751270E3599E94D77ECF7CE2 /* LYAutoUtils.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39EE426F8681031E955D5BC30079FFE0 /* LYAutoUtils.xcassets */; };
 		B77A72E6073CD34D4EB2EDE0DAF269A1 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E38FE3F59C4CEFBFF6805CFC404D42 /* Zip.swift */; };
 		B8B74A7D642922197EE6F070AA8D030D /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ECFE68E29579B94E55F59B33B962705 /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B8DE34F2BB7BA726169B606EF1F7ECB0 /* LYAutoDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19931ED077670185C0F732FE202C1403 /* LYAutoDatePicker.swift */; };
+		B8DE34F2BB7BA726169B606EF1F7ECB0 /* LYAutoDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE93B5290C32ABA21DA3D141E0FD6329 /* LYAutoDatePicker.swift */; };
 		C8DF95C1E4966F4EE4EF98DCC94DA418 /* Pods-LYAutoUtilsTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3489AAC5BF2E13707CB2C870CA40A40D /* Pods-LYAutoUtilsTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C978E08A3B5018919BB079E8BA1F708D /* QuickZip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2D58090470D1BF88CCFC16A0CFF592 /* QuickZip.swift */; };
 		D658F01D235C2270EC30BAEAC58DA951 /* Minizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B20CBC81478E67E3C8F1FFE9D4670BE /* Minizip.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D7C6D042D5649BEF00A1BA188C465290 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC781CD7B4AC4CD51392D196F592343 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E4ED2633F9179F06933A1D67DB15510F /* ZipUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCDD680ADCE30A04DA6E06B53C629F3 /* ZipUtilities.swift */; };
 		EA654CFC901D8A3ED2FE5BCB9E50A044 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913FCBDF219A79D23F0CE0F448DE3282 /* UIKit.framework */; };
-		F3F6AA8FA678DC61C8544C4B47B2ACFE /* LYAutoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97D5C0021DC10194E931F65BBD60672 /* LYAutoAlert.swift */; };
+		F3F6AA8FA678DC61C8544C4B47B2ACFE /* LYAutoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E2F208525116C420BA27E3361945D /* LYAutoAlert.swift */; };
 		FCC50B0D4D06EE65A88BAF3A1DA8B1B1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D50095DB46C9D2DA6E9E832FECDF3B9 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,43 +67,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00895CD1CD285C5B63B4AB7CAEB43C36 /* LYAutoUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYAutoUtils-umbrella.h"; sourceTree = "<group>"; };
 		03470FD6B20CD7E65A40E1B281AAAEE8 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = Zip/minizip/include/ioapi.h; sourceTree = "<group>"; };
 		0EC781CD7B4AC4CD51392D196F592343 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = Zip/minizip/include/zip.h; sourceTree = "<group>"; };
-		19931ED077670185C0F732FE202C1403 /* LYAutoDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoDatePicker.swift; path = Sources/LYAutoDatePicker.swift; sourceTree = "<group>"; };
+		131189CBA824C4EDC29F886B5F63CC72 /* LYAutoDatePicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LYAutoDatePicker.xib; path = Sources/LYAutoDatePicker.xib; sourceTree = "<group>"; };
+		132BBE8C67505EC0E737E9A04DA7350A /* LYAutoUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYAutoUtils-Info.plist"; sourceTree = "<group>"; };
+		185018C7253202C1D56586B550387086 /* LYAutoUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYAutoUtils.release.xcconfig; sourceTree = "<group>"; };
 		19A07D00E5C53DFD16C4972A8266F17F /* Pods-LYAutoUtilsTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYAutoUtilsTest-frameworks.sh"; sourceTree = "<group>"; };
 		1ABFFE7FA042EBB24757FFDB58A626EC /* Pods-LYAutoUtilsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYAutoUtilsTest.debug.xcconfig"; sourceTree = "<group>"; };
 		1D2D58090470D1BF88CCFC16A0CFF592 /* QuickZip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickZip.swift; path = Zip/QuickZip.swift; sourceTree = "<group>"; };
 		20F07E2F402AD773CC3EF441FED97F06 /* Zip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Zip-Info.plist"; sourceTree = "<group>"; };
 		24243BFC5AC1B2938B14E3A751AA3E80 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zip.c; path = Zip/minizip/zip.c; sourceTree = "<group>"; };
 		2C114C9A076819217DDC356B03B57130 /* Pods-LYAutoUtilsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYAutoUtilsTest.release.xcconfig"; sourceTree = "<group>"; };
-		2F149D6E3C12615FD89681F191EF956E /* LYAutoUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYAutoUtils.release.xcconfig; sourceTree = "<group>"; };
-		3467901A3C9FBE8C21AF2AD5591E4086 /* LYAutoUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYAutoUtils-Info.plist"; sourceTree = "<group>"; };
 		3489AAC5BF2E13707CB2C870CA40A40D /* Pods-LYAutoUtilsTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYAutoUtilsTest-umbrella.h"; sourceTree = "<group>"; };
 		359859E24E3127A826CAC179C0352105 /* Pods-LYAutoUtilsTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYAutoUtilsTest.modulemap"; sourceTree = "<group>"; };
-		39EE426F8681031E955D5BC30079FFE0 /* LYAutoUtils.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = LYAutoUtils.xcassets; path = Sources/LYAutoUtils.xcassets; sourceTree = "<group>"; };
-		3A514BF7C553CC07985F9B1332D5603A /* LYAutoUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYAutoUtils-dummy.m"; sourceTree = "<group>"; };
+		3B132003B81CF48DBFC3CEEA771BDB46 /* LYAutoUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYAutoUtils-dummy.m"; sourceTree = "<group>"; };
 		3BA4EDBEEEC0BBB1FA8C863A047370A9 /* Zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Zip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4020E3C34069488B1A417E83C56B9D6D /* LYAutoUtilsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoUtilsExtensions.swift; path = Sources/LYAutoUtilsExtensions.swift; sourceTree = "<group>"; };
 		454CBB36A96C87BEAD32DD0181D849B9 /* Zip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Zip-dummy.m"; sourceTree = "<group>"; };
-		512CFC3173AA09D8E6F0E3269634FD3C /* LYAutoUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYAutoUtils.modulemap; sourceTree = "<group>"; };
-		51ADCD3D7603AD46611DD2CC92C7AC7E /* LYAutoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LYAutoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		49355928305168F69CF7A3A48DED243C /* LYAutoUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYAutoUtils-umbrella.h"; sourceTree = "<group>"; };
+		5169AE965A214AA124D522729C9F9C2F /* LYAutoUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYAutoUtils-prefix.pch"; sourceTree = "<group>"; };
 		55864114BEED615862B1B517B153236D /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = Zip/minizip/ioapi.c; sourceTree = "<group>"; };
 		55A6A366C936940952F4C0633A2028BD /* Zip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zip.debug.xcconfig; sourceTree = "<group>"; };
 		57E38FE3F59C4CEFBFF6805CFC404D42 /* Zip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zip.swift; path = Zip/Zip.swift; sourceTree = "<group>"; };
 		5B20CBC81478E67E3C8F1FFE9D4670BE /* Minizip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Minizip.h; path = Zip/minizip/include/Minizip.h; sourceTree = "<group>"; };
 		5CC5CD8DE4F07560546A78D1AA062DA9 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = Zip/minizip/include/crypt.h; sourceTree = "<group>"; };
-		5F843DC8B17A31907C4B4388ADF7CF18 /* LYAutoDatePicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LYAutoDatePicker.xib; path = Sources/LYAutoDatePicker.xib; sourceTree = "<group>"; };
 		604FCE901527D6DE7F39E542AEEFB6E9 /* LYAutoUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYAutoUtils.framework; path = LYAutoUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		668A50F4F582FCA056DBF564333B122C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6F938B779232646DE3581B293473EBE7 /* Zip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Zip.modulemap; sourceTree = "<group>"; };
-		7934EBA46F8DBDD521A6136138C3C371 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7ECFE68E29579B94E55F59B33B962705 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = Zip/minizip/include/unzip.h; sourceTree = "<group>"; };
-		85DC94E371921A540770EEC6107A3500 /* LYAutoUtilsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoUtilsExtensions.swift; path = Sources/LYAutoUtilsExtensions.swift; sourceTree = "<group>"; };
-		86F468A92629D536E6D47F7F86FC7495 /* LYAutoUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYAutoUtils.debug.xcconfig; sourceTree = "<group>"; };
+		811A3105C99E5E15087E7E65BC0BD8D0 /* LYAutoSwitchs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoSwitchs.swift; path = Sources/LYAutoSwitchs.swift; sourceTree = "<group>"; };
+		86EC25634503C611DD3A27C813142DEB /* LYAutoLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoLoading.swift; path = Sources/LYAutoLoading.swift; sourceTree = "<group>"; };
 		873C4F0F6D4DD5D61D71CEE3E67AC046 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		89C94C1977109C924E979EF2E6824016 /* LYAutoPop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoPop.swift; path = Sources/LYAutoPop.swift; sourceTree = "<group>"; };
 		913FCBDF219A79D23F0CE0F448DE3282 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		940E1ED8C5B0BA95571B82117BC67509 /* Zip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zip-prefix.pch"; sourceTree = "<group>"; };
-		94714195BC6C612FFBFA611D02318A0E /* LYAutoSwitchs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoSwitchs.swift; path = Sources/LYAutoSwitchs.swift; sourceTree = "<group>"; };
+		94E799F8AED7287D713FD9A08059060B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D50095DB46C9D2DA6E9E832FECDF3B9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2F7A4AC4ACB1F42222251BC26413EB1 /* Zip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zip-umbrella.h"; sourceTree = "<group>"; };
@@ -111,17 +108,20 @@
 		A8958AAFBD1B0D8AE6E018E6235A169A /* Pods-LYAutoUtilsTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYAutoUtilsTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ABE13CEA62D36C9009B33B10D9AA949F /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = Zip/minizip/unzip.c; sourceTree = "<group>"; };
 		AE11C5D2F7BE888AABE5BE7846E109ED /* Zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Zip.h; path = Zip/Zip.h; sourceTree = "<group>"; };
-		B945CE0D29BBC9195198CDEF2D47E34A /* LYAutoUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYAutoUtils-prefix.pch"; sourceTree = "<group>"; };
-		B97D5C0021DC10194E931F65BBD60672 /* LYAutoAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoAlert.swift; path = Sources/LYAutoAlert.swift; sourceTree = "<group>"; };
+		AF7E2F208525116C420BA27E3361945D /* LYAutoAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoAlert.swift; path = Sources/LYAutoAlert.swift; sourceTree = "<group>"; };
+		B25FFE3B357FFB25056B794D081D4629 /* LYAutoUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYAutoUtils.debug.xcconfig; sourceTree = "<group>"; };
+		BA3F4A8A4C4F1492177E9246C06D88B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C3F3EE364300305A4D48C2399027D4EC /* LYAutoUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LYAutoUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D15DF044E1DF6A0AF86E1B3C83914717 /* Pods-LYAutoUtilsTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYAutoUtilsTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		E07B8B13812E8E9AA02AD6EE3889E0A7 /* LYAutoLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoLoading.swift; path = Sources/LYAutoLoading.swift; sourceTree = "<group>"; };
+		DE93B5290C32ABA21DA3D141E0FD6329 /* LYAutoDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoDatePicker.swift; path = Sources/LYAutoDatePicker.swift; sourceTree = "<group>"; };
+		E422BECF95BFA65799F0A6D641594020 /* LYAutoUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYAutoUtils.modulemap; sourceTree = "<group>"; };
 		E59C08E4F58108EFFB5A97D4E9DF4325 /* Zip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zip.release.xcconfig; sourceTree = "<group>"; };
 		EBCDD680ADCE30A04DA6E06B53C629F3 /* ZipUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZipUtilities.swift; path = Zip/ZipUtilities.swift; sourceTree = "<group>"; };
-		EF140E2E5BB6D5827673E3088D730EA0 /* LYAutoPop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoPop.swift; path = Sources/LYAutoPop.swift; sourceTree = "<group>"; };
+		EDDB8AFA5E9AAE957162E4CD23B25BE1 /* LYAutoUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoUtils.swift; path = Sources/LYAutoUtils.swift; sourceTree = "<group>"; };
 		F0D4A572C894B858FF0066FBE757270F /* Pods_LYAutoUtilsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYAutoUtilsTest.framework; path = "Pods-LYAutoUtilsTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F274ACE666AE4CF4AA8436A64DB8B4E7 /* LYAutoUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYAutoUtils.swift; path = Sources/LYAutoUtils.swift; sourceTree = "<group>"; };
 		F314D9683D36796F523268683C4E54AE /* Pods-LYAutoUtilsTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYAutoUtilsTest-dummy.m"; sourceTree = "<group>"; };
 		F8405E310D72C96D8D796691313BDD7B /* Pods-LYAutoUtilsTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYAutoUtilsTest-Info.plist"; sourceTree = "<group>"; };
+		F8E9B5A244AF4A7BA3C84270055082EB /* LYAutoUtils.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LYAutoUtils.bundle; path = Sources/LYAutoUtils.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,25 +163,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		143267122D820E87F71717E67822FA23 /* LYAutoUtils */ = {
-			isa = PBXGroup;
-			children = (
-				B97D5C0021DC10194E931F65BBD60672 /* LYAutoAlert.swift */,
-				19931ED077670185C0F732FE202C1403 /* LYAutoDatePicker.swift */,
-				5F843DC8B17A31907C4B4388ADF7CF18 /* LYAutoDatePicker.xib */,
-				E07B8B13812E8E9AA02AD6EE3889E0A7 /* LYAutoLoading.swift */,
-				EF140E2E5BB6D5827673E3088D730EA0 /* LYAutoPop.swift */,
-				94714195BC6C612FFBFA611D02318A0E /* LYAutoSwitchs.swift */,
-				F274ACE666AE4CF4AA8436A64DB8B4E7 /* LYAutoUtils.swift */,
-				39EE426F8681031E955D5BC30079FFE0 /* LYAutoUtils.xcassets */,
-				85DC94E371921A540770EEC6107A3500 /* LYAutoUtilsExtensions.swift */,
-				4FFD7A49C9091788F909F82BCBFB8381 /* Pod */,
-				84F83D3BE51376099E1D0CCC4C1C289B /* Support Files */,
-			);
-			name = LYAutoUtils;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		295D267C116761C2244C16DFAD9F535F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +174,7 @@
 		331161EB4346F62B71F1A3BEA936AB98 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				143267122D820E87F71717E67822FA23 /* LYAutoUtils */,
+				5BF8DF62480B5F7CD5B2809CE211454E /* LYAutoUtils */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -219,16 +200,6 @@
 			path = Zip;
 			sourceTree = "<group>";
 		};
-		4FFD7A49C9091788F909F82BCBFB8381 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				668A50F4F582FCA056DBF564333B122C /* LICENSE */,
-				51ADCD3D7603AD46611DD2CC92C7AC7E /* LYAutoUtils.podspec */,
-				7934EBA46F8DBDD521A6136138C3C371 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		511F86DD30A3CD92738E548DFCF555BC /* Pods-LYAutoUtilsTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +217,25 @@
 			path = "Target Support Files/Pods-LYAutoUtilsTest";
 			sourceTree = "<group>";
 		};
+		5BF8DF62480B5F7CD5B2809CE211454E /* LYAutoUtils */ = {
+			isa = PBXGroup;
+			children = (
+				AF7E2F208525116C420BA27E3361945D /* LYAutoAlert.swift */,
+				DE93B5290C32ABA21DA3D141E0FD6329 /* LYAutoDatePicker.swift */,
+				131189CBA824C4EDC29F886B5F63CC72 /* LYAutoDatePicker.xib */,
+				86EC25634503C611DD3A27C813142DEB /* LYAutoLoading.swift */,
+				89C94C1977109C924E979EF2E6824016 /* LYAutoPop.swift */,
+				811A3105C99E5E15087E7E65BC0BD8D0 /* LYAutoSwitchs.swift */,
+				F8E9B5A244AF4A7BA3C84270055082EB /* LYAutoUtils.bundle */,
+				EDDB8AFA5E9AAE957162E4CD23B25BE1 /* LYAutoUtils.swift */,
+				4020E3C34069488B1A417E83C56B9D6D /* LYAutoUtilsExtensions.swift */,
+				CC48457B0361AB62D2651363A3012CC6 /* Pod */,
+				9C96905EEBEDFF8516E660483CADA152 /* Support Files */,
+			);
+			name = LYAutoUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		78820E1DE29B66EBE565DF7114962BDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,21 +243,6 @@
 				E054DCE6DF1325EDCA60C3CF3E9BE532 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		84F83D3BE51376099E1D0CCC4C1C289B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				512CFC3173AA09D8E6F0E3269634FD3C /* LYAutoUtils.modulemap */,
-				3A514BF7C553CC07985F9B1332D5603A /* LYAutoUtils-dummy.m */,
-				3467901A3C9FBE8C21AF2AD5591E4086 /* LYAutoUtils-Info.plist */,
-				B945CE0D29BBC9195198CDEF2D47E34A /* LYAutoUtils-prefix.pch */,
-				00895CD1CD285C5B63B4AB7CAEB43C36 /* LYAutoUtils-umbrella.h */,
-				86F468A92629D536E6D47F7F86FC7495 /* LYAutoUtils.debug.xcconfig */,
-				2F149D6E3C12615FD89681F191EF956E /* LYAutoUtils.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "LYAutoUtilsTest/Pods/Target Support Files/LYAutoUtils";
 			sourceTree = "<group>";
 		};
 		954116D645A02F18E048A3CC7334A5E2 /* Support Files */ = {
@@ -283,6 +258,31 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Zip";
+			sourceTree = "<group>";
+		};
+		9C96905EEBEDFF8516E660483CADA152 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E422BECF95BFA65799F0A6D641594020 /* LYAutoUtils.modulemap */,
+				3B132003B81CF48DBFC3CEEA771BDB46 /* LYAutoUtils-dummy.m */,
+				132BBE8C67505EC0E737E9A04DA7350A /* LYAutoUtils-Info.plist */,
+				5169AE965A214AA124D522729C9F9C2F /* LYAutoUtils-prefix.pch */,
+				49355928305168F69CF7A3A48DED243C /* LYAutoUtils-umbrella.h */,
+				B25FFE3B357FFB25056B794D081D4629 /* LYAutoUtils.debug.xcconfig */,
+				185018C7253202C1D56586B550387086 /* LYAutoUtils.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "LYAutoUtilsTest/Pods/Target Support Files/LYAutoUtils";
+			sourceTree = "<group>";
+		};
+		CC48457B0361AB62D2651363A3012CC6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				94E799F8AED7287D713FD9A08059060B /* LICENSE */,
+				C3F3EE364300305A4D48C2399027D4EC /* LYAutoUtils.podspec */,
+				BA3F4A8A4C4F1492177E9246C06D88B1 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -378,7 +378,7 @@
 				4FAA55FBDEBDB909D3480D57610E4700 /* Headers */,
 				4EFCD687CEA95A9B0FB907BA37A16841 /* Sources */,
 				8670005D6DFF3B8228460CA070F523D0 /* Frameworks */,
-				8DBA7F0281E2536746A83C4F035225E7 /* Resources */,
+				16EB393063C6E697BB518499E14F63BF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -420,7 +420,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -440,18 +440,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		16EB393063C6E697BB518499E14F63BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D6EAC923AB52D4EF24853222085E80 /* LYAutoUtils.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C7EB172DE1E23928DB38DA88AB006DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DBA7F0281E2536746A83C4F035225E7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B54B01C4751270E3599E94D77ECF7CE2 /* LYAutoUtils.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +529,7 @@
 /* Begin XCBuildConfiguration section */
 		50DBD6957A96250A7FEF643FB276B90A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86F468A92629D536E6D47F7F86FC7495 /* LYAutoUtils.debug.xcconfig */;
+			baseConfigurationReference = B25FFE3B357FFB25056B794D081D4629 /* LYAutoUtils.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -698,7 +698,7 @@
 		};
 		85EFD5B2F31FD30E2B56705B2F4F925E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F149D6E3C12615FD89681F191EF956E /* LYAutoUtils.release.xcconfig */;
+			baseConfigurationReference = 185018C7253202C1D56586B550387086 /* LYAutoUtils.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
